@@ -1,0 +1,4 @@
+.alert.error {
+  background-color: rgba(236, 77, 43, 0.2);
+  border: 2px solid #ef9400;
+}

@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.contact-info {
+  background-color: #fff;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.contact-info ul {
+  list-style: none;
+  display: flex;
+}
+
+.contact-info li {
+  list-style: none;
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+  background-color: #e2e2e2;
+}
+
+.contact-info li a {
+  display: block;
+  color: #333;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  transition:
+    color,
+    box-shadow 0.2s ease-in-out;
+}
+
+.contact-info li a:hover {
+  color: #f00;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search {
+  margin-bottom: 20px;
+  float: right;
+  display: flex;
+}
+
+.search input[type="search"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 2px solid #195c4b;
+
+  cursor: pointer;
+}
+
+.search input[type="search"]:focus {
+  outline: none;
+}
+
+.search button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #195c4b;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #195c4b;
+  color: #fff;
+}
+
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.icon-edit::before {
+  content: "\f044";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #6911b1;
+}
+
+.icon-delete::before {
+  content: "\f2ed";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #6911b1;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+tbody td {
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+
+tbody td:last-child a {
+  color: #555;
+  text-decoration: none;
+}
+
+tbody td:last-child a:hover {
+  color: #f00;
+}
+
+.icon-add-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icon-add {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #195c4b;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 36px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.fa-plus {
+  font-family: "Font Awesome 5 Free";
+  margin-left: -2px;
+}
